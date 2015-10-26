@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update -y
-sudo apt-get install -y apache2 git php5 mysql-client
+sudo apt-get install -y apache2 git php5 mysql-client php5-mysqlnd
 curl -sS https://getcomposer.org/installer | php
 sudo php composer.phar require aws/aws-sdk-php
 cp -R vendor/ /var/www/html
