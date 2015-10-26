@@ -10,3 +10,4 @@ php /var/www/setup.php
 chmod 600 /var/www/html/setup.php
 mkdir /var/www/html/uploads
 chmod 777 /var/www/html/uploads
+rm /var/www/html/index.html 
